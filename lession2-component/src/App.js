@@ -5,31 +5,38 @@ import Product from './components/Product';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" >
 
-      <Header>
-
-        {/* <div className="row">
-          <div className="col-xs-6 col-sm-6 col-md-6 -col-lg-6">
-            <Product/>
-            <h1>Hiếu</h1>
-          </div>
-
-
-          <div className="col-xs-6 col-sm-6 col-md-6 -col-lg-6"></div>
-        </div> */}
+      <Header >
       </Header>
-      <div className="row">
-          <div className="col-xs-6 col-sm-6 col-md-6 -col-lg-6">
-            <Product></Product>
-          </div>
+      <div className="container">
+        <div className="row" >
+          <div className="col-xs-2 col-sm-2 col-md-2 -col-lg-2" >
+            < Product > </Product>
+          </div >
 
+          <div className="col-xs-2 col-sm-2 col-md-2 -col-lg-2" >
+            <Product > </Product>
+          </div >
 
-          <div className="col-xs-6 col-sm-6 col-md-6 -col-lg-6">
-          <Product></Product>
-          </div>
-        </div>
-    </div>
+          <div className="col-xs-2 col-sm-2 col-md-2 -col-lg-2" >
+            <Product > </Product>
+          </div >
+
+          <div className="col-xs-2 col-sm-2 col-md-2 -col-lg-2" >
+            <Product > </Product>
+          </div >
+
+          <div className="col-xs-2 col-sm-2 col-md-2 -col-lg-2" >
+            <Product > </Product>
+          </div >
+
+          <div className="col-xs-2 col-sm-2 col-md-2 -col-lg-2" >
+            <Product > </Product>
+          </div >
+        </div >
+      </div>
+    </div >
   );
 }
 
